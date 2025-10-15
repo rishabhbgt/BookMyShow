@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 .logo{
@@ -32,21 +33,22 @@ h1{
     background-color: rgb(185, 177, 177);
     
 }
-.input{
+.search{
     display: flex;
     justify-content: center;
+    
 }
 
 .searching{
-    max-width: 60%;
     width: 400px;
+    max-width: 60%;
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 8px;
 }
 
 
-.input>button{
+.search>button{
     font-size: 1rem;
     
     margin-left: .5rem;
