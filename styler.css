@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(215, 46, 46);
+    padding: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+.right button{
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    background-color: rgb(215, 46, 46);
+    border: none;
+    padding-top: .3rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+.search{
+    padding: 1rem 0rem;
+    background-color: rgb(185, 177, 177);
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.searching{
+    max-width: 60%;
+    width: 400px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+
+.input>button{
+    font-size: 1rem;
+    
+    margin-left: .5rem;
+    background-color: rgb(215, 46, 46);
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://imgs.search.brave.com/iSXgMWrQLc0DSWFFzRBBtFSSJWdhdGbFJacfjlCxvZE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTA2/MzI5MTU5L3ZlY3Rv/ci9maWxtc3RyaXBz/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1helA5MmVaX0tK/b3BRV2s0OGh3WlYz/cjZnbWRhdWJ1SGpO/N21OWXdZUUh3PQ);
+    padding: 2rem 2rem;
+}
+
+.hero>h2{
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+.hero>button{
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(215, 46, 46);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
