@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
+    
 }
 
 .logo{
@@ -29,14 +29,10 @@ h1{
 }
 
 .search{
-    padding: 1rem 0rem;
-    background-color: rgb(185, 177, 177);
-    
-}
-.search{
     display: flex;
     justify-content: center;
-    
+    padding: 1rem 0rem;
+    background-color: rgb(185, 177, 177);
 }
 
 .searching{
@@ -83,3 +79,63 @@ h1{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mover>h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.movie1{
+    margin-left: 1rem;
+    background-color:  rgb(193, 189, 189);
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.movie1 > .img{
+    width: 225px;
+    height: 378px;
+    border-radius: 10px;
+}
+
+.movie1 > .moviename{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.bottom{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bottom> img{
+    max-width: 80%;
+}
+
+@media (max-width: 510px){
+    
+    .logo{
+        flex-direction: column;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .movie{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
